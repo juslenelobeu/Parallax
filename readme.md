@@ -1,51 +1,58 @@
 # One Page com parallax
 
-Projeto desenvolvido para estudo com aplicaÁ„o das seguintes features:
+Projeto desenvolvido para estudo com aplica√ß√£o das seguintes features:
 
 - HTML
 - CSS
 
 ## Screenshot
 
-![](../assets/images/screenshot-desktop.png)
+![](../assets/images/screenshot-desktop.jpg)
 
 ### O que aprendi
 
-No decorrer da criaÁ„o deste projeto eu aprendi novas formas de utilizar classes, pseudo-classes e propriedades de CSS:
+No decorrer da cria√ß√£o deste projeto eu aprendi novas formas de utilizar classes, pseudo-classes e propriedades de CSS:
 
 - :target
 
-> Utilizado para fazer modificaÁıes no 'alvo', como aplicar bordas, background margem, etc... Ex:
+> Utilizado para fazer modifica√ß√µes no 'alvo', como aplicar bordas, background margem, etc... Ex:
 
-`/* Seleciona um elemento com a ID correspondente ao fragmento da URL */
+```
 :target {
   border: 2px solid black;
-}`
+}
+```
 
 - scroll-behavior: smooth;
 
-> Aplica um comportamento suave ao scroll quando se utiliza ‚ncoras (#) nos links, ex.:
+> Aplica um comportamento suave ao scroll quando se utiliza √¢ncoras (#) nos links, ex.:
 
-`html {
+```
+html {
     scroll-behavior: smooth;
-}`
+}
+```
 
 - scroll-margin-top: value
 
-> Adiciona espaÁamento entre o elemento alvo da ‚ncora (#) e o topo da viewport, ex.:
+> Adiciona espa√ßamento entre o elemento alvo da √¢ncora (#) e o topo da viewport, ex.:
 
-`article:target {
+```
+article:target {
     scroll-margin-top: 10vh;
-}`
+}
+```
 
 - menu mobile com cess puro
 
-> Inseri um simples input:checkbox no header com uma label, nela coloquei o atributo for com o mesmo dado do id do input
-> No CSS ocultei esses elementos, e nas resoluÁıes mobile apliquei display flex para exibir as linhas da label, formatei os itens do menu da forma como desejei exibir nas dimensıes mobile e apliquei o display: none, feito isso apliquei no seletor do input:checkbox para que quando a pseudo-clase :checked for selecionada, seria aplicado no menu o display: block
+> Inseri um simples `input:checkbox` no `header` com uma `label`, nela coloquei o atributo `for` com o mesmo dado do `id` do `input`
+> No CSS ocultei esses elementos, e nas resolu√ß√µes mobile apliquei `display: flex` para exibir as linhas da `label`, formatei os itens do menu da forma como desejei exibir nas dimens√µes mobile e apliquei o `display: none`, feito isso apliquei no seletor do `input:checkbox` para que quando a `pseudo-classe :checked` for selecionada, seria aplicado no menu o `display: block`
 
-`header input[type=checkbox]:checked ~ nav {
+```
+header input[type=checkbox]:checked ~ nav {
     display: block;
 }
 header input[type=checkbox]:checked ~ label {
     height: 30px;
-}`
+}
+```
