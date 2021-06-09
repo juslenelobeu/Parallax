@@ -7,7 +7,7 @@ Projeto desenvolvido para estudo com aplicação das seguintes features:
 
 ## Screenshot
 
-![](../assets/images/screenshot-desktop.jpg)
+![](./assets/images/screenshot-desktop.jpg)
 
 ### O que aprendi
 
