@@ -5,6 +5,9 @@ Projeto desenvolvido para estudo com aplicação das seguintes features:
 - HTML
 - CSS
 
+## Preview
+[Link preview](https://juslenelobeu.github.io/Parallax/)
+
 ## Screenshot
 
 ![](./assets/images/screenshot-desktop.jpg)
